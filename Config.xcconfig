@@ -1,8 +1,8 @@
 // Some of the items can be modified to match the user's preference
 // appB variant: separate app so it does not overwrite an existing Trio install.
-APP_DISPLAY_NAME = TrioB
+APP_DISPLAY_NAME = Trio_Test
 APP_ICON = trioBlack
-APP_URL_SCHEME = TrioB
+APP_URL_SCHEME = Trio_Test
 
 // DEVELOPER_TEAM will be set to your Apple Developer ID - typically using ConfigOverride.xcconfig
 DEVELOPER_TEAM = ##TEAM_ID##
