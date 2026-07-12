@@ -211,9 +211,15 @@ platform :ios do
       key_content: "#{FASTLANE_KEY}"
     )
     
+    # force: true so profiles are regenerated on every Create Certificates run.
+    # This is required after (re)associating the App Group with the appB bundle
+    # IDs in the Developer Portal — otherwise match keeps the previously stored
+    # profiles (which lack the app-group entitlement) and the build fails with
+    # "Provisioning profile doesn't match the entitlements file's value for the
+    # com.apple.security.application-groups entitlement".
     match(
       type: "appstore",
-      force: false,
+      force: true,
       verbose: true,
       git_basic_authorization: Base64.strict_encode64("#{GITHUB_REPOSITORY_OWNER}:#{GH_PAT}"),
       app_identifier: [
