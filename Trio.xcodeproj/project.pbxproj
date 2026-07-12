@@ -1788,6 +1788,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BDFF7A9E2D25FA970016C40C /* Preview Content */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Preview Content"; sourceTree = "<group>"; };
 		DDCEBF412CC1B42500DF4C36 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+		CA5E15CA5E15CA5E15CA5E15 /* CareSens */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CareSens; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2187,6 +2188,7 @@
 				3811DE1425C9D40400A708ED /* Router */,
 				3811DE9125C9D88200A708ED /* Services */,
 				3883582E25EEAFC000E024B2 /* Views */,
+				CA5E15CA5E15CA5E15CA5E15 /* CareSens */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -4286,6 +4288,9 @@
 			dependencies = (
 				6B1A8D272B14D91700E76752 /* PBXTargetDependency */,
 				BDFF799E2D25AA890016C40C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA5E15CA5E15CA5E15CA5E15 /* CareSens */,
 			);
 			name = Trio;
 			packageProductDependencies = (

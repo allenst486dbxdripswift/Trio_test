@@ -40,6 +40,11 @@ class BasePluginManager: Injectable, PluginManager {
             pluginIdentifier: LibreTransmitterManagerV3.pluginIdentifier,
             localizedTitle: String(localized: "FreeStyle Libre"),
             manager: LibreTransmitterManagerV3.self
+        ),
+        CgmPluginDescription(
+            pluginIdentifier: CareSensAirCGMManager.pluginIdentifier,
+            localizedTitle: String(localized: "CareSens Air"),
+            manager: CareSensAirCGMManager.self
         )
     ]
 
